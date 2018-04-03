@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2e3e120f-b8e2-46f4-8089-a1778756fa48" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/IWS_Velib/ServiceVelib/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="d88feee3-c58a-4ea0-9faf-57c7df12b781" SourceId="1" SourceUrl="http://localhost:8733/IWS_Velib/ServiceVelib/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="1f8ae725-fe3a-4268-bbfe-c13600dbab3d" SourceId="1" SourceUrl="http://localhost:8733/IWS_Velib/ServiceVelib/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="776b617f-45f3-4c81-97cb-d9ad3bce3849" SourceId="1" SourceUrl="http://localhost:8733/IWS_Velib/ServiceVelib/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="54687c5a-a113-4c06-8245-a8584f61fad6" SourceId="1" SourceUrl="http://localhost:8733/IWS_Velib/ServiceVelib/mex" />
+    <MetadataFile FileName="IWS_Velib.xsd" MetadataType="Schema" ID="e3aa33c9-5fa4-488b-abe9-cc113802a9e5" SourceId="1" SourceUrl="http://localhost:8733/IWS_Velib/ServiceVelib/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
