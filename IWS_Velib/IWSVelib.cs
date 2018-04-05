@@ -5,14 +5,24 @@ using System.ServiceModel;
 
 namespace IWS_Velib
 {
-    [ServiceContract]
+   
+    [ServiceContract(CallbackContract = typeof(IWSVelibServiceEvents))]
     public interface IWSVelib
     {
+
         [OperationContract]
         List<string> GetListStations(string city);
 
         [OperationContract]
         VelibStation getStation(string city, string stationName);
+
+ 
+
+        [OperationContract]
+        void SubscribeCalculatedEvent();
+
+        [OperationContract]
+        void SubscribeCalculationFinishedEvent();
     }
 
     [DataContract]
