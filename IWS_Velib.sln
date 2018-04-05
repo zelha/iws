@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientGraphique", "ClientGr
 		{E63805E1-B2A3-4706-AB01-39436440ABE6} = {E63805E1-B2A3-4706-AB01-39436440ABE6}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelibHost", "VelibHost\VelibHost.csproj", "{A39D5A2D-0F5C-472C-BAD1-60C46B89FB9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{4B0669CF-F1A5-47EC-BA98-1493386483CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B0669CF-F1A5-47EC-BA98-1493386483CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0669CF-F1A5-47EC-BA98-1493386483CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39D5A2D-0F5C-472C-BAD1-60C46B89FB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39D5A2D-0F5C-472C-BAD1-60C46B89FB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39D5A2D-0F5C-472C-BAD1-60C46B89FB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39D5A2D-0F5C-472C-BAD1-60C46B89FB9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

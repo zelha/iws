@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IWSVelib.cs" />
+    <Compile Include="IWSVelibServiceEvents.cs" />
     <Compile Include="JDCCaller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IWSVelibImpl.cs" />
